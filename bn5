@@ -1,0 +1,83 @@
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+<style>
+@font-face{font-family:'Changa';src:local(BEIN),local(bein),url(https://cdn.staticaly.com/gh/kol7sry/kol7sry/3048dd3c/HacenTunisiaLt.woff2) format("woff")}
+body {
+    direction: rtl;
+}
+.tomboltv {
+background: #000000 none repeat scroll 0 0;
+    border: 1px solid #cbc5c5;
+    border-radius: .3em;
+    color: #ffffff !important;
+    display: inline-block;
+    min-width: 60px;
+    font-size: 14px;    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding: 8px 12px;
+    text-align: center;
+    text -decoration: none;
+    background-image: linear-gradient(110deg,rgb(78, 179, 94) 0%,rgb(1, 148, 99) 50%);
+    font-family: 'Changa';
+}
+.chanel {
+margin: 0 auto;
+    text-align: center;
+    float: none;
+    background: #000000;
+    height: 100%;
+    padding: 0;
+    border: 10px solid transparent;
+    -webkit-border-image: url(/live-assets/frame.png) 8 8 7 stretch;
+    -o-border-image: url(/live-assets/frame.png) 8 8 7 stretch;
+    border-image: url(https://match.kooralive.info/live-assets/frame.png) 8 8 7 stretch;
+    margin-bottom: 20px;
+}
+.btnref {
+    background: #ffffff;
+    border: 1px solid #dbdae9;
+    border-radius: 3px;
+    padding: 8px 10px;   font-weight: 400;
+    outline: 0;
+    cursor: pointer;
+    line-height: 35px;    font-family: 'Changa';
+}
+.btnref:before {
+    content: "\f021";
+    font-family: FontAwesome;
+    margin-left: 8px;
+}
+</style>
+<div class="imgmm" style="clear: both;text-align: center;">
+<img border="0" data-original-height="90" data-original-width="120" src="https://4.bp.blogspot.com/-j1NMTAwmcMw/XLmrQoTXzKI/AAAAAAAADRw/U7U7M2KGymwYXXwR1EW73Gzfa7Hw2fm0ACLcBGAs/s1600/9992858102603b19cb5edf90e0a86199.png">
+</div>
+
+<div align="center" style="margin-bottom: 7px;">
+<a class="btnref" onclick="window.location.reload(true);">تحديث</a>
+<a class="tomboltv" href="javascript:server1();">البث الرئيسي </a>
+<a class="tomboltv" href="javascript:server2();">جودة عالية</a>
+<a class="tomboltv" href="javascript:server3();">جودة متوسطة</a>
+<a class="tomboltv" href="javascript:server4();">قناة بدون إنقطاع</a>
+</div>
+    <div class="chanel">
+        <div id="tivi">
+            <iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="420" scrolling="no" src="https://player.twitch.tv/?channel=hjknt78e" width="600"></iframe>
+<br />
+            <br />
+            <script type="text/javascript">
+                function server1() {
+                    document.getElementById("tivi").innerHTML = '<iframe allowfullscreen="true" src="https://player.twitch.tv/?channel=hjknt78e" allowtransparency="true" frameborder="0" height="100%" scrolling="no" width="100%"></iframe>';
+                }
+                function server2() {
+                    document.getElementById("tivi").innerHTML = '<iframe allowfullscreen="true" src="https://player.twitch.tv/?channel=hjknt78e" allowtransparency="true" frameborder="0" height="100%" scrolling="no" width="100%"></iframe>';
+                }
+                function server3() {
+                    document.getElementById("tivi").innerHTML = '<iframe allowfullscreen="true" src="http://kmlive7.blogspot.com/2018/10/bein-sport-3-sd.html" allowtransparency="true" frameborder="0" height="100%" scrolling="no" width="100%"></iframe>';
+                }
+              function server4() {
+            document.getElementById("tivi").innerHTML = '<iframe allowfullscreen="true" src="https://www.247bay.tv/hembedplayer/beinsportshd5jh/2/360/350" allowtransparency="true" frameborder="0" height="100%" scrolling="no" width="100%"></iframe>';
+                }
+            </script>
+        </div>
+    </div>
